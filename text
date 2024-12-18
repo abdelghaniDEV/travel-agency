@@ -1,0 +1,27 @@
+{
+  "name": "رحلة إلى باريس",
+  "description": "استمتع بجولة ساحرة في باريس مع زيارة أهم المعالم.",
+  "destination": "باريس",
+  "price": 1000,
+  "discount": 10,
+  "availability": 20,
+  "startDate": "2024-12-20",
+  "endDate": "2024-12-27",
+  "departurePoint": "مطار القاهرة الدولي",
+  "transportation": "طائرة",
+  "hotel": {
+    "name": "Hotel Paris",
+    "rating": 5,
+    "facilities": ["WiFi", "Swimming Pool", "Breakfast"]
+  },
+  "activities": ["زيارة برج إيفل", "ركوب القوارب"],
+  "images": ["image1.jpg", "image2.jpg"],
+  "reviews": [
+    {
+      "user": "أحمد",
+      "rating": 5,
+      "comment": "رحلة رائعة!"
+    }
+  ],
+  "status": "Open"
+}

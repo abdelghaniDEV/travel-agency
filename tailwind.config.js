@@ -62,7 +62,13 @@ module.exports = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+			main: {
+				primary: "#F2764C", // اللون الأساسي
+				secondary: "#f2a54c", // اللون الثانوي
+				background: "#0B0F13", // لون الخلفية
+				text: "#979FA8", // لون بارز
+			  },
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
