@@ -34,7 +34,7 @@ export default function Page() {
     <div className="container">
       {/* header */}
       <div>
-        <h1 className="md:text-[30px] text-[30px] leading-[24px] font-[500] pb-2">
+        <h1 className="md:text-[30px] text-[30px] leading-[28px] font-[500] pb-2">
           Bli - Nusa Penida Island Tour
         </h1>
         <div className="flex    items-center justify-end md:justify-between text-[15px]">
@@ -145,7 +145,7 @@ export default function Page() {
                     DAY 01,Explore the Heart of Marrakech
                   </h3>
                 </div>
-                <div className="md:px-10 py-3 flex flex-col gap-2 text-main-text ">
+                <div className="md:px-10 py-3 flex flex-col gap-2 ">
                   <div className="flex gap-1 items-start">
                     {/* <div className="w-4 h-4 rounded-full bg-black "></div> */}
                     <p>
