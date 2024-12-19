@@ -14,10 +14,10 @@ import {
   SheetDescription,
   SheetHeader,
   SheetTitle,
-  SheetTrigger,
+  SheetTrigger
 } from "@/components/ui/sheet";
 
-function page() {
+function Page() {
   const [isOpen, setIsOpen] = useState(false)
   return (
     <div className="">
@@ -86,4 +86,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

@@ -27,7 +27,7 @@ import PackageItem from "@/components/PackageItem";
 import { Input } from "@/components/ui/input";
 import { Label } from "@radix-ui/react-label";
 
-export default function page() {
+export default function Page() {
   return (
     <div className="container">
       {/* header */}
