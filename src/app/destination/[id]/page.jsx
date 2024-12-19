@@ -120,7 +120,9 @@ export default function Page() {
           </Card>
           {/* description */}
           <div className="py-4">
-            <h2 className="text-[25px] md:text-[30px] font-[500]">Description</h2>
+            <h2 className="text-[25px] md:text-[30px] font-[500]">
+              Description
+            </h2>
             <p className="md:px-5">
               Marrakech, often called the "Red City" due to its iconic red
               sandstone buildings, is a vibrant and historic city located in the
@@ -331,7 +333,7 @@ export default function Page() {
                   $600
                 </span>
               </div>
-              <div className="text-main-text flex flex-col gap-[2px]">
+              {/* <div className="text-main-text flex flex-col gap-[2px]">
                 <div className="flex items-center justify-between">
                   <span className="font-[500]">start Date : </span>
                   <span className="text-main-primary font-[500]">
@@ -344,7 +346,27 @@ export default function Page() {
                     2024-20-20
                   </span>
                 </div>
+              </div> */}
+            </div>
+            {/* form */}
+            <div className="flex flex-col gap-2 py-2">
+              <div className="flex flex-col gap-2">
+                <Label className="font-[500] text-main-text">Full Name </Label>
+                <Input type="text" placeholder="Entre Full name " />
               </div>
+              <div className="flex flex-col gap-2">
+                <Label className="font-[500] text-main-text">Email </Label>
+                <Input type="text" placeholder="Entre Full name " />
+              </div>
+              <div className="flex flex-col gap-2">
+                <Label className="font-[500] text-main-text">Number </Label>
+                <Input type="phone" placeholder="Entre Number " />
+              </div>
+              {/* <Card className="flex justify-around  text-[30px] items-center py-2 my-2 ">
+                <Button className="bg-main-text text-black font-[500] text-[16px]">+</Button>
+                <span className=" text-black font-[500] flex items-center justify-center bg-main-text h-10 w-20 rounded-[10px] text-[20px] py-[]">1</span>
+                <Button className="bg-main-text text-black font-[500] text-[16px]">-</Button>
+              </Card> */}
             </div>
             <Button className="w-full bg-main-primary">Book New</Button>
           </Card>
@@ -364,12 +386,12 @@ export default function Page() {
               price={"55"}
               place={"Essouira"}
             />
-            <PackageItem
+            {/* <PackageItem
               image={ourzazate}
               title={"Ourzazte Red City Land"}
               price={"18"}
               place={"Ourzazate"}
-            />
+            /> */}
           </div>
         </div>
       </div>
