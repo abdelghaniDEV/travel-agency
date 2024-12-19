@@ -34,11 +34,11 @@ export default function Page() {
     <div className="container">
       {/* header */}
       <div>
-        <h1 className="md:text-[30px] text-[25px] font-[500] pb-2">
+        <h1 className="md:text-[30px] text-[30px] leading-[24px] font-[500] pb-2">
           Bli - Nusa Penida Island Tour
         </h1>
-        <div className="flex hidden  items-center justify-between text-[15px]">
-          <div className="flex items-center gap-5">
+        <div className="flex    items-center justify-end md:justify-between text-[15px]">
+          <div className="md:flex hidden md:block items-center gap-5">
             <div className="flex items-center gap-2">
               <Clock3 />
               <span>4 Days - 3 Nights</span>
@@ -48,7 +48,7 @@ export default function Page() {
               <span>Bali Indonesia</span>
             </div>
           </div>
-          <div className="flex items-center gap-5">
+          <div className="flex items-center gap-3 md:gap-5">
             <div className="flex items-center gap-2">
               <ExternalLink />
               <span>Share</span>
@@ -72,7 +72,7 @@ export default function Page() {
                 className="rounded-[20px] w-full h-full"
               />
             </div>
-            <div className="grid grid-cols-2 gap-2">
+            <div className="grid grid-cols-2 gap-2  ">
               <Image
                 src={marrakesh}
                 alt="ch"
@@ -135,17 +135,17 @@ export default function Page() {
           {/* activity */}
           <div className="py-4">
             <h2 className="text-[25px] md:text-[30px] font-[500]">Itinerary</h2>
-            <div className="px-3 flex flex-col gap-3">
+            <div className="px-3 flex flex-col gap-3 py-2">
               <div>
                 <div className="flex items-center gap-2 ">
                   <div className="bg-main-secondary p-1 rounded-full">
                     <span className=" text-[20px]   text-white">01</span>
                   </div>
-                  <h3 className="font-[500] text-[20px]">
+                  <h3 className="font-[500] text-[20px] leading-[20px]">
                     DAY 01,Explore the Heart of Marrakech
                   </h3>
                 </div>
-                <div className="px-10 py-3 flex flex-col gap-2 ">
+                <div className="md:px-10 py-3 flex flex-col gap-2 ">
                   <div className="flex gap-1 items-start">
                     {/* <div className="w-4 h-4 rounded-full bg-black "></div> */}
                     <p>
@@ -180,11 +180,11 @@ export default function Page() {
                   <div className="bg-main-secondary p-1 rounded-full">
                     <span className=" text-[20px]   text-white">02</span>
                   </div>
-                  <h3 className="font-[500] text-[20px]">
+                  <h3 className="font-[500] text-[20px] leading-[20px]">
                     DAY 02,Culture, Art, and Gardens
                   </h3>
                 </div>
-                <div className="px-10 py-3 flex flex-col gap-2">
+                <div className="md:px-10 py-3 flex flex-col gap-2">
                   <div className="flex gap-1 items-start">
                     {/* <div className="w-4 h-4 rounded-full bg-black "></div> */}
                     <p>
@@ -219,11 +219,11 @@ export default function Page() {
                   <div className="bg-main-secondary p-1 rounded-full">
                     <span className=" text-[20px]   text-white">03</span>
                   </div>
-                  <h3 className="font-[500] text-[20px]">
+                  <h3 className="font-[500] text-[20px] leading-[20px]">
                     DAY 03,Explore the Heart of Marrakech
                   </h3>
                 </div>
-                <div className="px-10 py-3 flex flex-col gap-2">
+                <div className="md:px-10 py-3 flex flex-col gap-2">
                   <div className="flex gap-1 items-start">
                     {/* <div className="w-4 h-4 rounded-full bg-black "></div> */}
                     <p>
@@ -258,11 +258,11 @@ export default function Page() {
                   <div className="bg-main-secondary p-1 rounded-full">
                     <span className=" text-[20px]   text-white">04</span>
                   </div>
-                  <h3 className="font-[500] text-[20px]">
+                  <h3 className="font-[500] text-[20px] leading-[20px]">
                     DAY 04,Explore the Heart of Marrakech
                   </h3>
                 </div>
-                <div className="px-10 py-3 flex flex-col gap-2">
+                <div className="md:px-10 py-3 flex flex-col gap-2">
                   <div className="flex gap-1 items-start">
                     {/* <div className="w-4 h-4 rounded-full bg-black "></div> */}
                     <p>
