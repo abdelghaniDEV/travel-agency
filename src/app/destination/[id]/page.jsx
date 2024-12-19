@@ -121,7 +121,7 @@ export default function Page() {
           {/* description */}
           <div className="py-4">
             <h2 className="text-[25px] md:text-[30px] font-[500]">Description</h2>
-            <p className="px-5">
+            <p className="md:px-5">
               Marrakech, often called the "Red City" due to its iconic red
               sandstone buildings, is a vibrant and historic city located in the
               heart of Morocco. Known for its bustling souks, stunning palaces,
@@ -133,9 +133,9 @@ export default function Page() {
             </p>
           </div>
           {/* activity */}
-          <div className="py-4">
+          <div className="pb-4">
             <h2 className="text-[25px] md:text-[30px] font-[500]">Itinerary</h2>
-            <div className="px-3 flex flex-col gap-3 py-2">
+            <div className="md:px-3 flex flex-col gap-3 py-2">
               <div>
                 <div className="flex items-center gap-2 ">
                   <div className="bg-main-secondary p-1 rounded-full">
